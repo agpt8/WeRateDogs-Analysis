@@ -12,14 +12,26 @@ In this project we anayse WeRateDogs twitter account. The dataset that is wrangl
 
 These files can be found in in `data/raw/`. Usually the data files are not uploaded using regular methods due to their sheer size, [data version control](https://dvc.org) is a good way to version control your datasets.
 
+## Notebook description
+
+There is a single notebook present in the `src` folder, namely `data_analysis.ipynb`. This notebook goes over data gathering, data wrangling, data cleaning and data analysis process one by one. Each section is well documented and the process is explained as required.
+
 ## Setup
 
 For working or testing this project on your system, you need to have python 3.6+ and anaconda/miniconda (preferrable). After you are done with the installations, follow the steps below.
 
-1. Clone the repo with `git clone`
+1. Clone the repo with `git clone git@github.com:agpt8/WeRateDogs-Analysis.git`
 
 2. Navigate into the project directory `cd WeRateDogs-Analysis`
 
-3. If you have conda installed, then issue the command `conda env create -f environment.yml`
+3. To create the conda environment with one command, use `conda env create -f environment.yml`
 
 4. Run the notebook using `jupyter notebook` or `jupyter lab`.
+
+## Results
+
+The main findings of the code can be found at the post available [here]()
+
+## Sources and Licences
+
+The sources referred are available at the end of the notebook. There is no licence associated with the code. Feel free to use it as you like.
