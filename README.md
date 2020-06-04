@@ -10,11 +10,21 @@ In this project we anayse WeRateDogs twitter account. The dataset that is wrangl
 
 - Twitter API & JSON, _tweet_json.txt_: by using the tweet IDs in the WeRateDogs Twitter archive, we use the Twitter API for each tweet's JSON data using Python's Tweepy library and stored each tweet's entire set of JSON data in a file called file. This file is read line by line into a pandas data frame with tweet ID, favorite count, retweet count, followers count, friends count, source, retweeted status and URL.
 
-These files can be found in in `data/raw/`. Usually the data files are not uploaded using regular methods due to their sheer size, [data version control](https://dvc.org) is a good way to version control your datasets.
+These files can be found in in `data/raw/`. Usually the data files are not uploaded using regular methods due to their size, [data version control](https://dvc.org) is a good way to version control your datasets.
 
 ## Notebook description
 
-There is a single notebook present in the `src` folder, namely `data_analysis.ipynb`. This notebook goes over data gathering, data wrangling, data cleaning and data analysis process one by one. Each section is well documented and the process is explained as required.
+There is a single notebook present in the `src` folder, namely `data_analysis.ipynb`. This notebook goes over data gathering, wrangling, cleaning and analysis process one by one. Each section is well documented and the process is explained as required.
+
+## Questions answered
+
+There are three main questions that are answered, each with their own specific set of traits. We take a look at the following questions:
+
+- Based on the predictions, most liked dog breed: Which breed gets retweeted and favorited the most overall?
+
+- How did the account develop (speaking about the number of tweets, retweets, favorites, image number and length of the tweets)?
+
+- Is there a pattern visible in the timing of the tweets?
 
 ## Setup
 
