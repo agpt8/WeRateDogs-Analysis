@@ -12,7 +12,7 @@ The motivation for this project came from the account uniques rating system for 
 
 - The tweet image predictions, _image_predictions.tsv_: what breed is present in each tweet according to a neural network. This file is hosted on Udacity's servers and was downloaded programmatically using the Requests library and URL information (This neural net is actually created in one of its extracuriicular courses in Data Scientist Nanodegee)
 
-- Twitter API & JSON, _tweet_json.txt_: by using the tweet IDs in the WeRateDogs Twitter archive, we use the Twitter API for each tweet's JSON data using Python's Tweepy library and stored each tweet's entire set of JSON data in a file called file. This file is read line by line into a pandas data frame with tweet ID, favorite count, retweet count, followers count, friends count, source, retweeted status and URL.
+- Twitter API & JSON, _tweet_json.txt_: by using the tweet IDs in the WeRateDogs Twitter archive, we use the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file. This file is read line by line into a pandas data frame with tweet ID, favorite count, retweet count, followers count, friends count, source, retweeted status and URL.
 
 These files can be found in in `data/raw/`. Usually the data files are not uploaded using regular methods due to their size, [data version control](https://dvc.org) is a good way to version control your datasets.
 
