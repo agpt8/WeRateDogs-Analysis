@@ -12,9 +12,13 @@ In this project we anayse WeRateDogs twitter account. The dataset that is wrangl
 
 These files can be found in in `data/raw/`. Usually the data files are not uploaded using regular methods due to their size, [data version control](https://dvc.org) is a good way to version control your datasets.
 
-## Notebook description
+## File and folder descriptions
 
 There is a single notebook present in the `src` folder, namely `data_analysis.ipynb`. This notebook goes over data gathering, wrangling, cleaning and analysis process one by one. Each section is well documented and the process is explained as required.
+
+The data is present in the data folder segregated as `raw` and `processed` to hold, well raw and processed data respectively.
+
+`environment.yml` file is used to create a virtual environment for the project without distrubing any exsisting environment and packages.
 
 ## Questions answered
 
