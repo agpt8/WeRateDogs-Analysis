@@ -2,6 +2,10 @@
 
 In this project we anayse WeRateDogs twitter account. The dataset that is wrangled is the tweet archive of Twitter user [dog_rates](https://twitter.com/dog_rates), also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10.
 
+## Project Motivation
+
+The motivation for this project came from the account uniques rating system for the dogs. For each picture, the dogs are rated like 11/10, 13/10 15/10 and like so. This really intrigued me and I wanted to go a little deeper to find out what makes this account so special. I also looked into the pattern of tweets, most popular dog breeds that they come across and more.
+
 ## Dataset details
 
 - Twitter archive file, _twitter_archive_enhanced.csv_: This was provided by Udacity and downloaded manually.
