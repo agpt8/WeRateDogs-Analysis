@@ -40,7 +40,11 @@ For working or testing this project on your system, you need to have python 3.6+
 
 3. To create the conda environment with one command, use `conda env create -f environment.yml`
 
-4. Run the notebook using `jupyter notebook` or `jupyter lab`.
+4. After the environment is created, activate the enrionment `conda activate WeRateDogs-Anaylsis`
+
+5. Run the notebook using `jupyter notebook` or `jupyter lab`.
+
+6. Now you can run all the cells at once or one by one.
 
 ## Results
 
