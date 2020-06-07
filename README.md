@@ -52,7 +52,7 @@ For working or testing this project on your system, you need to have python 3.6+
 
 ## Results
 
-The main findings of the code can be found at the post available [here]()
+The main findings of the code can be found at the post available [here](https://medium.com/@ayush.gpt8/weratedogs-analysis-5a92a873dfbc)
 
 ## Sources and Licences
 
